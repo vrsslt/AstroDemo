@@ -1,25 +1,25 @@
 ---
-import BaseLayout from "../layouts/BaseLayout.astro";
-import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro'
+import '../styles/global.css'
 
-const pageTitle = "A propos de moi";
+const pageTitle = 'A propos de moi'
 
 const identity = {
-	firstName: "Vincent",
-	country: "France",
-	occupation: "Développeur web fullstack",
-	hobbies: ["informatique", "sport", "esport" ],
-};
+    firstName: 'Vincent',
+    country: 'France',
+    occupation: 'Développeur web fullstack',
+    hobbies: ['informatique', 'sport', 'esport'],
+}
 
-const skills = ["HTML", "CSS", "Javascript", "React", "Astro"];
+const skills = ['HTML', 'CSS', 'Javascript', 'React', 'Astro']
 
-const happy = true;
-const finished = true;
-const goal = 3;
+const happy = true
+const finished = true
+const goal = 3
 
-const skillColor = "navy";
-const fontWeight = "bold";
-const textCase = "uppercase";
+const skillColor = 'navy'
+const fontWeight = 'bold'
+const textCase = 'uppercase'
 ---
 <style is:global define:vars={{skillColor, fontWeight, textCase}}>
 	.skill {
